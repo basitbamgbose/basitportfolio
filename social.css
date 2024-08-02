@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+p{
+    font-size: 14px;
+}
+
+.container{
+   background-color:hsl(0, 0%, 12%);
+   width: 30%;
+   margin: 5% auto;
+   text-align: center;
+   padding: 1.5rem 1rem;
+   border-radius: 0.8rem;
+}
+.container >img{
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.container >h1{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+.address{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1.5rem;
+}
+.profession{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+ .container >ul >li{
+    list-style: none;
+    background-color:hsl(0, 0%, 20%) ;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius:0.8rem;
+}
+.container >ul >li:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+.container >ul >li >a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+.attribution{
+    color: white;
+}
+.container >ul >li>a:hover{
+    color: black;
+}
+@media( min-width:481px)and (max-width:800px){
+    .container{
+        width: 40%;
+    }
+}
+@media( max-width:480px){
+    .container{
+        width: 90%;
+    }
+}

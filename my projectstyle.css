@@ -1,0 +1,1342 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kalam:wght@300;400;700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+p{
+   font-size: 20px ;
+}
+body{
+   background:white;
+    overflow-x: hidden;
+   
+}
+header{
+    background-image: url(./images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+    padding-left: 1rem 0.5rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    background-color:rgb(150, 112, 112);
+    padding: 1rem 6rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0.5rem;
+    z-index: 1;
+    gap: 4rem;
+
+}
+
+h2{
+    font-size: 230%;
+    text-align: left;
+    font-style: oblique;
+    margin-left: 2rem;
+}
+.logo >nav >ul >li{
+    width: 9%;
+   list-style: none;
+   display:inline-flex;
+   margin-right:1.9rem;
+   position: relative;
+   justify-content: space-between;
+   gap: 4rem;
+   font-style: oblique;
+   font-size: large;
+   
+}
+.logo >nav >ul >li::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    background-color:white;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    transition: all .3s ease-out;
+    
+}
+.logo >nav >ul >li:hover::after{
+    width: 100%;
+}
+.logo >nav >ul >li >a{
+    text-decoration: none;
+    color:white;    
+    padding-bottom: 0.5rem;
+    
+}
+.all{
+    align-items: center;
+}
+.all >img{
+    padding-top:2rem ;
+    width: 28%;
+    height: fit-content;
+    border-radius: 40%;
+    float: right;
+    margin-right: 11rem;
+    padding-bottom: 6rem;
+    
+
+}
+.developer{
+    width: 100%;
+    
+}
+.developer >h1{
+    width: 100%;
+    padding-top: 2rem;
+    font-size: 60px;
+    justify-content:space-around;
+    padding-left: 11rem;
+    padding-bottom: -0.8rem;
+    font-style: oblique;
+
+}
+.developer >.one{
+    padding-bottom: 0.1rem;
+    
+}
+.developer >h5{
+    font-size: 40px;
+    padding-left: 11rem;
+    padding-bottom: 1.5rem;
+    padding-top: -0.5rem; 
+    font-style: oblique;
+}
+.iconme{
+    color: white;
+    margin-left: 11rem;
+    font-size: 250%;
+    margin-top: -1.8rem;
+    margin-bottom: 1.5rem;
+    gap: 4.5rem;
+    display: flex;
+    position:relative;
+}
+.facebook >a >i{
+    color:rgb(247, 241, 241) ;
+}
+.facebook >a >i:hover{
+    color:rgb(8, 64, 247);
+    cursor: pointer;
+
+}
+.instagram >a >i{
+    color:rgb(247, 241, 241) ;
+}
+.instagram>a >i:hover{
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+.twitter >a >i{
+    color:rgb(247, 241, 241) ;
+}
+.twitter >a >i:hover{
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+}
+.github >a >i{
+    color:rgb(247, 241, 241) ;
+}
+.github >a >i:hover{
+    color: black;
+    cursor: pointer;
+}
+.pintrest >a >i{
+    color:rgb(247, 241, 241) ;
+}
+.pintrest >a >i:hover{
+    color: rgb(255, 5, 5);
+    cursor: pointer;
+}
+.button{
+    padding: 0.9rem 2.5rem;
+    margin-left: 11rem;
+    margin-top: 14rem;
+    width: 70%;
+    background-color:white;
+    color:rgb(196, 78, 78);
+    border-radius: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight:bolder;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+.button:hover{
+    background-color:rgb(196, 78, 78);
+    color: white;
+    border: 2.5px solid white;
+}
+
+.works{
+   
+    width:100%;
+    height: 250vh;
+    background-color:rgba(223, 154, 98, 0.548);
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    padding-bottom: 5rem;
+    
+    
+    
+}
+.works >p{
+    font-size: 270%;
+    text-align: center;
+    font-weight: bold;
+    margin-left:29rem ;
+    text-decoration: underline;
+}
+
+  .transp1{
+    background-color:  rgba(255, 255, 255, 0.5);
+    width: 45%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    
+  }
+
+.works >.allimg >.transp1 >a >.img1{
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-right: 15rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+    
+.transp2{
+    background-color:   rgba(255, 255, 255, 0.5);
+    width:45%;
+    height: 57vh;
+    margin-right:4.5rem;
+    margin-top:-22.7rem ;
+    margin-bottom:6rem;
+    border-radius: 1rem;
+    float: right;
+}
+.works >.allimg >.transp2 >a >.img2{
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    float: right;
+    
+
+}
+.transp3{
+    background-color:   rgba(255, 255, 255, 0.5);
+    width:45%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    float: left;
+  }
+
+.works >.allimg >.transp3 >a >.img3{
+    height: 20rem;
+    object-fit:cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    float: left;
+    
+}
+.transp4{
+    background-color:   rgba(255, 255, 255, 0.5);
+    width:45%;
+    margin-left: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    float: left;
+  }
+.works >.allimg >.transp4 >a >.img4{
+    height: 19.9rem;
+    object-fit: cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    float:right; 
+     
+}
+.transp5{
+    background-color:   rgba(255, 255, 255, 0.5);
+    width: 45%;
+    height: 85vh;
+    margin-left: 2.4rem;
+    margin-right: 4rem;
+    margin-top: -0.05rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    float: right;
+    
+    
+  }
+.works >.allimg >.transp5 >a >.img5{
+    height:30rem;
+    object-fit:cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    float: right;  
+}
+.transp6{
+    background-color:  rgba(255, 255, 255, 0.5);
+    width: 45%;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    float: left;
+}
+.works >.allimg >.transp6 >a >.img6{
+    height:30rem;
+    object-fit:cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    float: left;
+    
+}
+.me{
+    background-color:rgba(252, 180, 122, 0.568);
+    width: 100%;
+    height: 87vh;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 0.4rem;
+   margin-bottom: 1rem;
+   
+}
+.me >p{
+    font-size: 100%;
+    text-align: center;
+    text-decoration: underline;
+  
+}
+.about-ph{
+
+   
+    height: 35rem;
+    border: black ;
+    border-radius: 9rem;
+    padding: 2rem;
+    
+}
+.photo{
+
+    width: 23%;
+    height: fit-content;
+    border-radius: 4rem;
+    float: left;
+    margin-right: 5rem;
+    margin-bottom:7rem ;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.word{
+    
+    justify-content: space-between;
+    font-style: oblique;
+    margin-top: -31rem;
+    margin-right: -10rem;
+   
+}
+.word >.name{
+    width: 95%;
+    font-size:90%;
+}
+.word >h3{
+    width: 95%;
+    font-size: 65%;
+}
+.word >p{
+    width: 79%;
+    font-size: 59%;
+}
+
+.myskills{
+    background-color:rgba(252, 180, 122, 0.568) ;
+    width: 100%;
+    height: 80vh;
+    border-radius: 0.2rem;
+    margin-top: -0.1rem;
+   
+}
+.myskills >p{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    color: black;
+    font-size: 200%;
+    margin: auto;
+    margin-left: -25rem;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration:underline;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.iconskills{
+    font-size: 1000%;
+    background-color:rgba(95, 60, 36, 0.651); 
+    width: 94%;
+    margin: 5% auto;
+    padding-top: 0.1rem;
+    padding-bottom:2rem ;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  
+}
+.allicons{
+    display: inline-flex;
+    width: 100%;
+}
+.html >p{
+    color: white;
+    font-size: 22%;
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight:bolder;
+    font-style: oblique;
+}
+.html >i{
+    font-size: 114%;
+    margin-left: 3.2rem;
+    align-items: center;
+}
+.html{
+    background-color:   rgb(20, 20, 20);
+    width: 70%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+   
+}
+.css >p{
+    color: white;
+    font-size: 22%;
+      margin-top: -2rem;
+      padding-bottom: 1rem;
+      text-align:center;
+      font-weight:bolder;
+      font-style: oblique;
+}
+.css >i{
+    font-size: 114%;
+    margin-left: 3.2rem;
+    align-items: center;
+}
+.css{
+
+        background-color:   rgb(20, 20, 20);
+        width: 70%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+}
+.bootstrap >p{
+    color: white;
+    font-size: 22%;
+      margin-top: -2rem;
+      padding-bottom: 1rem;
+      text-align:center;
+      font-weight:bolder;
+      font-style: oblique;
+}
+.bootstrap >i{
+    font-size: 114%;
+    margin-left: 3.2rem;
+    align-items: center;
+}
+.bootstrap{
+    
+        background-color:   rgb(20, 20, 20);
+        width: 70%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+}
+.javascript >p{
+    color: white;
+    font-size: 22%;
+      margin-top: -2rem;
+      padding-bottom: 1rem;
+      text-align:center;
+      font-weight:bolder; 
+      font-style: oblique;
+}
+.javascript>i{
+    font-size: 114%;
+    margin-left: 3.2rem;
+    align-items: center;
+}
+.javascript{
+    
+        background-color:  rgb(20, 20, 20);
+        width: 70%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+        margin-right: 2rem;
+}
+
+.myservice{
+    background-color:rgba(252, 180, 122, 0.568) ;
+    border-radius: 0.2rem;
+    margin-top: -1rem;
+    padding-bottom: 5rem;
+}
+.myservice >.services{
+    color: rgb(2, 2, 2);
+    font-size: 250%;
+    font-weight: bolder;
+    margin: auto;
+    margin-bottom: 3.5rem;
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    font-style: oblique;
+
+}
+.serviceall{
+    display: flex;
+}
+  
+.servtransp1{
+    background-color:  rgba(255, 255, 255, 0.055);
+    width: 35%;
+    height: 77vh;
+    padding-top: 1rem;
+    padding-right: -10rem;
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    
+}
+.servc1{
+    color:rgb(0, 0, 0);
+    height: 70vh;
+    background-color:rgb(233, 184, 121);
+    justify-content: space-between;
+    margin-right: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.servc1 >p{
+    font-size: 99%;
+    font-weight:bold ;
+    margin-left: 1.5rem ;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: -1.5rem;
+    text-align: center;
+    font-style: oblique;
+}
+.servc1 >.words{
+       font-size: 190%;
+        width: 90%;
+        text-align: center;
+        text-decoration: underline; 
+        font-weight:600; 
+        font-style: italic;
+}
+.servtransp2{
+    background-color:  rgba(255, 255, 255, 0.055);
+    width: 35%;
+    height: 77vh;
+    padding-top: 1rem;
+    padding-right: -10rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    
+}
+.servc2{
+    height: 70vh;
+    color:black;
+    background-color:rgb(233, 184, 121);
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
+}
+.servc2 >p{
+    font-size: 97%;
+    font-weight: bold;
+    margin-left: 2rem ;
+    margin-bottom: 4rem;
+    margin-top: -1.3rem;
+    text-align: center;
+    margin-right: 2rem;
+    font-style: oblique;
+
+}
+.servc2 >.words{
+    font-size: 190%;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 1.9rem;
+        margin-top: -1rem;
+        text-decoration: underline;
+        font-weight:600;
+        font-style: italic;
+}
+.servtransp3{
+    background-color:  rgba(255, 255, 255, 0.055);
+    width: 35%;
+    height: 77vh;
+    padding-top: 1rem;
+    padding-right: -10rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    
+}
+.servc3{
+    height: 70vh;
+    color:black;
+    background-color:rgb(233, 184, 121);
+    justify-content: space-between;
+    margin-right: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+   
+
+}
+.servc3 >p{
+    font-size: 99%;
+    font-weight: bold;
+    margin-left: 2rem ;
+    margin-right: 2rem;
+    margin-top: -1.3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-style: oblique;
+}
+.servc3 >.words{
+    font-size: 190%;
+        text-align: center;
+        width: 90%;
+        text-decoration: underline ;
+        font-weight:600;
+        font-style: italic;
+}
+.servc1 >i{
+    font-size: 500%;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+.servc2 >i{
+    font-size: 400%;
+    text-align: center;
+    width: 100%;
+    margin:3% ;
+    margin-top: 0.7rem;
+    margin-bottom: 0.8rem;
+}
+.servc3 >i{
+    font-size: 500%;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+
+ .contactme{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0.5rem;
+    background-color:rgba(252, 180, 122, 0.568) ;
+ }
+.Contact-left{
+    flex-basis: 35%;
+   
+}
+.Contact-left >.sub-title{
+    width: 100%;
+    font-size: 300%;
+    text-decoration: underline;
+    margin: auto;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    
+}
+.Contact-right{
+    flex-basis: 60%;
+}
+
+.Contact-left >p{
+   width: 70%;
+   font-size: 270%;
+   margin-left:1rem;
+   gap: 2rem;
+   justify-content: space-between;
+   font-style: oblique;
+  
+} 
+.Contact-left >.mail{
+    gap: 4rem;
+}
+.Contact-left >p >i{
+    width: 5%;
+    margin-top: 5rem;
+   margin-left: 2rem; 
+   margin-right: -rem;
+
+}
+
+
+button{
+    width: 30%;
+    height: 7vh;
+    display: inline-block;
+    background-color: #ad6d24;
+    color: black;
+    border: 1.5px solid black;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 1rem;
+}
+button:hover{
+background-color: black;
+border:1.5px solid #ad6d24;
+border-radius: 1rem;
+color:#ad6d24;
+font-weight: bolder;
+font-size: larger;
+}
+.Contact-right{
+    float: right;
+    margin-right: -8.5rem;
+}
+.Contact-right >form{
+    width: 100%;
+    margin-top: -10rem;
+    padding-bottom: 3rem;
+   margin-left: -2rem;
+    
+}
+
+
+.contactForm input, form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #ad6d24;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+input[type=text]{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #ad6d24;
+    padding: 15px;
+    margin:  0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 600; 
+    
+}
+input[type=email]{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #ad6d24;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 600; 
+}
+.contactForm >input, ::placeholder{
+    color: #000000;
+    font-weight: bolder;
+}
+.contactForm .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    background-color:rgba(51, 16, 1, 0.692);
+    color: black;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.left-footer,.right-footer{
+    width: 100%;
+}
+.left-footer >i{
+font-size: 230%;
+align-items: center;
+}
+    .footerall{
+        display: inline-flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 250%;
+    position: absolute;
+    gap: 2.9rem;
+    text-align: center;
+    float: left; 
+    margin-left: 29rem;
+    margin-top: -0.3rem;
+    }
+   .facebook >a >i{
+        color:rgb(247, 241, 241) ;
+    }
+    .facebook >a >i:hover{
+        color:rgb(8, 64, 247);
+        cursor: pointer;
+    
+    }
+    .instagram >a >i{
+        color:rgb(247, 241, 241) ;
+    }
+    .instagram>a >i:hover{
+        color:rgb(255, 0, 0);
+        cursor: pointer;
+    
+    }
+    .twitter >a >i{
+        color:rgb(247, 241, 241) ;
+    }
+    .twitter >a >i:hover{
+        color: rgb(0, 238, 255);
+        cursor: pointer;
+    }
+    .github >a >i{
+        color:rgb(247, 241, 241) ;
+    }
+    .github >a >i:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .pintrest >a >i{
+        color:rgb(247, 241, 241) ;
+    }
+    .pintrest >a >i:hover{
+        color: rgb(255, 5, 5);
+        cursor: pointer;
+    }
+   
+    .right-footer >p{
+        width: 100%;
+        color:white;
+        text-align: center;
+        font-size:125%;
+        margin-top: 4rem;
+        margin-left:-18rem;
+        gap:2.9rem ;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    .stickyicon >a >i{
+        width: 66%;
+        position:sticky;
+         font-size: 320%;
+        background-color:#c57b27;
+        color: black;
+        margin-top: 3.5rem;
+        margin-right: 2rem;
+        border-radius: 0.4rem;
+        height: 9vh;
+    }
+    .stickyicon >i{
+        width: 100%;
+        font-size: 140%;
+    
+        margin:auto;
+    }
+    .stickyicon >a >i:hover{
+     background-color: black;
+     color:#c57b27;
+    }
+      .icon-open{
+        display:none
+      
+    }
+    .message{
+        background:#ad6d24;
+        color:black;
+        width:30%;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        position: absolute;
+        top: -5rem;
+        left:0;
+        right:0;
+        margin:auto;
+        display:none;
+    }
+    .message-title{
+        display:flex;
+        gap:0.5rem;
+        align-items: center;
+        margin-bottom: 0.7rem;
+    }
+    .message > p{
+        font-size: 0.8rem;
+    }
+
+    @media(max-width:640px){
+        body{
+            position: relative;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            height: 190vh;
+           
+            
+        }
+       .logo >.icon-open{
+        width: 6%;
+      font-size: 100%;
+        display: block;
+        
+       }
+       .logo{
+        padding: 1rem;
+        position:sticky ;
+       }
+      
+       .logo >h2{
+        margin-right: -12rem;
+        width: 30%;
+        font-size: 200%;
+       }
+       .logo >nav{
+        display: none;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding-top: 1.5rem;
+       }
+       .logo >nav >ul{
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 2rem;
+        background-color:rgb(252, 252, 252);
+        padding: 1.5rem;
+        border-radius: 0.4rem;
+       }
+       .logo >nav >ul >li{
+        display: block;
+        margin: 1rem 0 auto;
+       
+       }
+       .logo >nav >ul >li >a{
+        color: rgb(121, 82, 47);
+        font-weight: 900;
+        width: 100%;
+        font-size: larger;
+        font-style: oblique;
+        text-align: center;
+        margin:auto;
+       }
+     
+       .all{
+        align-items: center;
+        padding-bottom: 3rem;
+        
+       }
+       .all >img{
+        width: 75%;
+        margin-right:3.6rem;
+        margin-top: -0.3rem;
+        margin-bottom: -4rem;
+      
+       
+       }
+       .developer{
+        width: 100%;
+        margin-top: -1rem;
+        margin-left: -8.1rem;
+        
+       }
+       .developer >h1{
+        width: 190%;
+        margin-left: 0.5rem;
+        margin-top: -4rem;
+        font-size:45px ;
+       }
+       .developer >.one{
+        width: 100%;
+        margin-left: 0.2rem;
+        font-size:35px ;
+       }
+    .developer >h5{
+        width: 120%;
+        font-size:30px; 
+        margin-bottom: 1rem;
+    }
+    .iconme{
+        width: 190%;
+        font-size: 199%;
+        margin-left: 2.7rem;
+        gap: 3.5rem;
+    
+    }  
+    .iconme{
+     cursor: pointer;
+    }
+   
+ .facebook >a >i:hover{
+     color:rgb(8, 64, 247);
+     cursor: pointer;
+ 
+ }
+ 
+ .instagram>a >i:hover{
+     color:rgb(255, 0, 0);
+     cursor: pointer;
+ 
+ }
+ 
+ .twitter >a >i:hover{
+     color: rgb(0, 238, 255);
+     cursor: pointer;
+ }
+ 
+ .github >a >i:hover{
+     color: black;
+     cursor: pointer;
+ }
+ 
+ .pintrest >a >i:hover{
+     color: rgb(255, 5, 5);
+     cursor: pointer;
+ }
+    .button{
+        width: 100%;
+        height: 50vh;
+      margin-left: 2.5rem;
+      margin-bottom: -3rem;
+      cursor: pointer;
+     
+    }
+    .button:hover{
+        background-color:rgb(196, 78, 78);
+        color: white;
+        border: 2.5px solid white;
+        cursor: pointer;
+    }
+    .works{
+        width: 100%;
+        height: 540vh;
+        margin-top: 1rem;
+        margin-bottom:0.3rem;
+    }
+    .works >p{
+        width: 80%;
+        margin: auto;
+      font-size: 230%;
+    }
+    .transp1{
+        width: 90%;
+        padding-bottom: 0.5rem;
+    }
+    .img1{
+        width: 86%;
+   
+    }
+    .transp2{
+        width: 90%;
+        height: 70vh;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+    .img2{
+    width: 86%;
+    }
+    .transp3{
+        width: 90%;
+        margin-top: -4rem;  
+    }
+    .img3{
+        width: 86%;
+    }
+    .transp4{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .img4{
+        width: 86%;
+    }
+    .transp5{
+        width: 91%;
+        height: 98vh;
+        margin-right: 0.9rem;
+        
+    }
+    .img5{
+        width: 89%;
+        padding-left: 0.5rem;
+    }
+    .transp6{
+        width: 91%;
+        height: 98vh;
+     margin-left: 1.9rem;
+    }
+    .img6{
+        width: 90%;
+        padding-right: 0.9rem;
+    }
+    .me {
+        width: 100%;
+        height: fit-content;
+        margin-top: 0.8rem;
+    }
+    .me >p{
+        font-size: 80%;
+    }
+    .about-ph{
+        align-items: center;
+        padding-bottom: 3rem;
+        
+    }
+       .about-ph >img{
+        width: 55%;
+        margin: auto;
+        margin-left:8.7rem;
+        margin-top: -0.3rem;
+        margin-bottom: 2rem;
+       
+       }
+       .word{
+        width: 70%;
+        font-size: 70%;
+        margin-left: 3rem;
+        padding-bottom: 2rem;
+       }
+    .myskills{
+        width: 100%;
+        height: 230vh;
+        margin-bottom:-0.3rem;
+
+    }
+    .myskills >p{
+        margin:auto;
+    }
+    .iconskills{
+        width: 90%;
+        
+
+    }
+    .allicons{
+        display: inline;
+    }
+    .html{
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+    .html >i{
+        align-items: center;
+        margin-left:  5.4rem;
+    }
+    .css{
+        margin: auto;
+        margin-top: 2rem;
+    }
+   .css >i{
+    align-items: center;
+    margin-left: 5.4rem;
+   }
+   .css >p{
+    text-align: center;
+    font-size: 28%;
+   }
+    .bootstrap{
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .bootstrap >i{
+        align-items: center;
+        margin-left:  5.4rem;
+    }
+    .javascript{
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .javascript >i{
+        align-items: center;
+        margin-left:  5.4rem;
+    }
+    .myservice{
+        width: 100%;
+        margin-bottom:0.5rem;
+        margin-top: -0.3rem;
+    }
+    .serviceall{
+        display: inline;
+    }
+    .servtransp1{
+        align-items: center;
+        width: 90%;
+        height: 87vh;
+        padding-top: 1rem;
+    }
+    .servc1{
+        margin: auto;
+        width: 86%;
+        height: 76vh;
+       margin-left: 2rem;
+       margin-top: 1rem;
+       margin-bottom: 2rem;
+    }
+    .servtransp2{
+        align-items: center;
+        width: 90%;
+        height: 87vh;
+        margin-top: 2rem;
+    }
+    .servc2{
+        margin: auto;
+        width: 86%;
+        height: 76vh;
+       margin-left: 2rem;
+       margin-top: 1rem;
+       margin-bottom: 2rem;
+    }
+    .servtransp3{
+        align-items: center;
+        width: 90%;
+        height: 87vh;
+        margin-top: 2rem;
+    }
+    .servc3{
+        margin: auto;
+        width: 86%;
+        height: 76vh;
+       margin-left: 2rem;
+       margin-top: 1rem;
+       margin-bottom: 2rem;
+} 
+      .contactme{
+        width: 100%;
+        height: 130vh;
+      }
+      .Contact-left >.sub-title{
+        font-size: 220%;
+      }
+.Contact-left >.mail{
+   width: 160%;
+   height: 10vh;
+   font-size: 200%;
+   font-style: oblique;
+   margin-top: -1rem;
+   margin-bottom: 2rem;
+   margin-left: rem;
+}
+
+.Contact-right >form{
+ width: 86%;
+ margin-top: 6rem;
+ margin-left: 3rem;
+
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+}
+      .footerall{
+     
+        font-size: 200%;
+        margin:auto;
+        margin-left: 6rem;
+      }
+      .right-footer{
+        width: 100%;
+      }
+      .right-footer >p{
+       width: 190%;
+        margin-left: -12rem;
+        margin-top: 3rem;
+        font-size: 140%;
+        font-weight: normal;
+      }
+      .stickyicon >a >i{
+        width: 78%; 
+        margin-top: 5rem;
+        margin-right: 1rem;
+        position: sticky;
+      }
+      .stickyicon >i{
+        font-size: 100%;
+      }
+}

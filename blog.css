@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    text-align: justify;
+}
+body{
+    background-color:hsl(47, 88%, 63%);
+}
+p{
+    font-size: 15px;
+}
+.container{
+   background-color:hsl(0, 0%, 100%);
+   border:thick black;
+    width: 30%;
+    margin: 5% auto;
+    text-align:left;
+    padding: 1rem 0.5rem;
+    border-radius: 1.5rem;;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+.container >img{
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    margin-top: 0.3rem;
+}
+.qualification{
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    width: 25%;
+    padding:5px;
+    margin: 0.7rem;
+    margin-top: 0.5rem;
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    font-weight: 800;
+    font-style:normal;
+}
+.year{
+    color:hsl(0, 0%, 7%) ;
+    margin: 0.5rem;
+    font-size:0.9rem;
+    font-weight:525;
+}
+.profession{
+    color:hsl(0, 0%, 7%) ;
+    margin: 0.6rem;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.language{
+    color:hsl(0, 0%, 50%) ;
+    margin: 1rem;
+    margin-top: 1rem;
+    text-transform:initial;
+    text-align:left;
+}
+.container >.profession:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+.coder{
+    color:hsl(0, 0%, 7%);
+    font-weight: bold;
+    font: 500;
+
+} 
+ 
+ .container >.me{
+    display:flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content:left;
+    
+    
+}
+.me >p{
+    margin-top: 1rem;
+}
+

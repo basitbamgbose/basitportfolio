@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+}
+
+body {
+    background-color: var(--Off-white);
+    font-family: "Inter", sans-serif;
+    margin: 3rem 7rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header>img {
+    width: 3rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 2rem;
+}
+.navigation >p{
+    cursor: pointer;
+}
+.navigation >p:hover {
+    color: var(--Soft-red);
+}
+.section-1 {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+.left-side{
+    width: 75%;
+}
+.section-1 > .left-side >div> img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.bottomside {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.col1 {
+    width: 43%;
+}
+.col1 >h1{
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+
+.col2 {
+    width: 43%;
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    color: var(--Dark);
+    background: var(--Soft-red);
+    text-transform: uppercase;
+    border: none;
+    width: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+}
+button:hover{
+    background: var(--Very-dark-blue);
+    color: var(--Off-white);
+}
+
+aside{
+    background: var(--Very-dark-blue);
+    width: 30%;
+    height: 80%;
+    padding: 1rem;
+}  
+aside >h2{
+    color: var(--Soft-orange);
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+aside >h3{
+    color: var(--Off-white);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+aside >h3:hover{
+    color: var(--Soft-orange);
+}
+aside >hr{
+    margin: 2rem 0;
+}
+aside >p{
+    color: var(--Off-white);
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+}
+.section-2{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.section-2 >.wrapper{ 
+    display: flex;
+}
+.section-2 >.wrapper >img{ 
+    width: 7rem;
+    height: 9rem;
+}
+.section-2 >.wrapper >.image-wrapper{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.section-2 >.wrapper >.image-wrapper >h1{
+    color: var(--Soft-red);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.section-2 >.wrapper >.image-wrapper >h3{
+    color: var(--Dark);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.section-2 >.wrapper >.image-wrapper >h3:hover{
+    color: var(--Soft-red);
+}
+.section-2 >.wrapper >.image-wrapper >p{
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 5rem;
+}
+.mobile-navigation{
+    display: none;
+}
+
+@media(max-width:376px){
+    
+    body {
+        margin: 2rem 1rem;
+        position: relative;
+        z-index: -1;
+    }
+    .navigation >p{
+        display: none;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: hsla(233, 26%, 24%, 0.5);
+        padding-top: 1.5rem;
+    }
+    .menu{
+        background-image: url(assets/images/icon-menu.svg);
+        width: 10%;
+        height: 1rem;
+        margin-left: auto;
+    }
+    .section-1{
+        flex-direction: column;
+    }
+    .left-side >div> img{
+        display: none;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .mobile-image{
+        background-image: url(./assets/images/image-web-3-mobile.jpg);
+        width: 100%;
+        height: 17rem;
+        background-size: cover;
+        background-repeat: none;        
+    }
+    .section-1 >.left-side{
+        float: left;
+    }
+    .bottomside {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+   
+    }
+    .col1 {
+        width: 100%;
+    }
+    .col1 >h1{
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 2.5rem;
+        margin-bottom: 0.7rem;
+        margin-top: -1rem;
+    }
+    .col2{
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    button{
+        width: 50%;
+        font-size: 0.6rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    aside{
+        width: 100%;
+        height: 80%;
+        padding: 1rem;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .mobile-navigation{
+        display: block;
+        background: white;
+        width: 75%;
+        height: 100vh;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -2rem;
+        margin-right: -1rem;
+        /* display: none; */
+    }
+    .mobile-navigation >img{
+        margin-top: 2rem;
+        margin-right: 1.5rem;
+        float: right;
+    }
+    .nav{
+        margin-top: 10rem;
+        margin-left: 1.5rem;
+        color: var(--Dark-grayish-blue);
+    }
+    .nav >p{
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+    .section-2 >.wrapper >.image-wrapper >p{
+        margin-bottom: 2rem;
+    }
+}

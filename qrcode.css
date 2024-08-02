@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+    
+}
+p{
+    font-size: 15px;
+}
+.container{
+background-color:  hsl(0, 0%, 100%);
+width: 27%;
+margin: 5% auto;
+text-align: center;
+padding: 1rem 0.5rem;
+border-radius: 1rem;
+}
+.container >img{
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.profession{
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0,5rem;
+}
+.visit{
+    color: hsl(220, 15%, 55%);
+    padding-top: 0.5rem;
+}
+.attribution{
+    color: darkblue;
+}
+.attribution >a{
+    color:black;
+}
