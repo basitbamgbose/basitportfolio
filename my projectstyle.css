@@ -336,7 +336,7 @@ h2{
     background-color:rgba(252, 180, 122, 0.568);
     width: 100%;
     height: 87vh;
-    font-size: 300%;
+    font-size: 250%;
     font-weight: bold;
     font-style: oblique;
     margin-top: 0.4rem;
@@ -1024,9 +1024,9 @@ align-items: center;
        
        }
        .developer{
-        width: 100%;
+        width: 80%;
         margin-top: -1rem;
-        margin-left: -8.1rem;
+        margin-left: -8.6rem;
         
        }
        .developer >h1{
@@ -1038,18 +1038,18 @@ align-items: center;
        .developer >.one{
         width: 100%;
         margin-left: 0.2rem;
-        font-size:35px ;
+        
        }
     .developer >h5{
-        width: 120%;
-        font-size:30px; 
+        width: 180%;
+        font-size:25px; 
         margin-bottom: 1rem;
     }
     .iconme{
-        width: 190%;
-        font-size: 199%;
-        margin-left: 2.7rem;
-        gap: 3.5rem;
+        width: 100%;
+        font-size: 160%;
+        margin-left: 2.1rem;
+        gap: 2.8rem;
     
     }  
     .iconme{
@@ -1105,57 +1105,71 @@ align-items: center;
     .works >p{
         width: 80%;
         margin: auto;
-      font-size: 230%;
+      font-size: 180%;
     }
     .transp1{
-        width: 90%;
+       width: 85%;
         padding-bottom: 0.5rem;
+        margin-left: 2rem;
     }
     .img1{
-        width: 86%;
+   width: 84%;
+   margin-left: -1rem;
+   padding-right: 1rem;
    
     }
     .transp2{
-        width: 90%;
-        height: 70vh;
+       width: 86%;
+        height: 69vh;
+        padding-bottom: 0.5rem;
+        margin-left: 2rem;
         margin-top: 2rem;
-        margin-right: 1rem;
+        margin-right: 1.3rem;
     }
     .img2{
-    width: 86%;
+       width: 83%;
+       padding-left: 0.4rem;
     }
     .transp3{
-        width: 90%;
+          width: 85%;
+        margin-left: 2rem;
         margin-top: -4rem;  
     }
     .img3{
-        width: 86%;
+            width: 85%;
+   margin-left: -1rem;
+   padding-right: 1rem;
     }
     .transp4{
-        width: 90%;
-        margin-top: 2rem;
+      width: 85%;
+        margin-left: 2rem;
+        margin-top: 2rem;  
     }
     .img4{
-        width: 86%;
+        width: 84%;
+        margin-left: -1rem;
+        padding-left: 1rem; 
     }
     .transp5{
-        width: 91%;
+ width: 89%;
         height: 98vh;
-        margin-right: 0.9rem;
+        margin-right: 1.4rem;
+        margin-left: 1.4rem;
         
     }
     .img5{
-        width: 89%;
-        padding-left: 0.5rem;
+     width: 85%;
+        padding-left: 0.7rem;
     }
     .transp6{
-        width: 91%;
+        width: 89%;
         height: 98vh;
-     margin-left: 1.9rem;
+        margin-right: 1.4rem;
+        margin-left: 1.4rem;
     }
     .img6{
-        width: 90%;
-        padding-right: 0.9rem;
+           width: 90%;
+        padding-right: 1.9rem;
     }
     .me {
         width: 100%;
@@ -1163,7 +1177,7 @@ align-items: center;
         margin-top: 0.8rem;
     }
     .me >p{
-        font-size: 80%;
+        font-size: 70%;
     }
     .about-ph{
         align-items: center;
@@ -1171,51 +1185,57 @@ align-items: center;
         
     }
        .about-ph >img{
-        width: 55%;
+         width: 78%;
         margin: auto;
-        margin-left:8.7rem;
+        margin-left:2rem;
         margin-top: -0.3rem;
         margin-bottom: 2rem;
        
        }
        .word{
-        width: 70%;
-        font-size: 70%;
-        margin-left: 3rem;
+        width: 100%;
+        margin-left: 1.4rem;
+        font-size: 30px;
+        justify-content: space-between;
         padding-bottom: 2rem;
+       
+       }
+         .word >.name{
+        font-size: 50px;
+        
        }
     .myskills{
-        width: 100%;
-        height: 230vh;
+       width: 100%;
+        height: 212vh;
         margin-bottom:-0.3rem;
 
     }
     .myskills >p{
         margin:auto;
+        font-size: 27px;
     }
     .iconskills{
         width: 90%;
-        
-
+         margin-bottom: 1rem;
     }
     .allicons{
         display: inline;
     }
     .html{
         margin: auto;
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
     }
     .html >i{
-        align-items: center;
-        margin-left:  5.4rem;
+             margin: auto;
+        margin-left: 2rem;
     }
     .css{
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
    .css >i{
-    align-items: center;
-    margin-left: 5.4rem;
+    margin: auto;
+    margin-left: 2rem;
    }
    .css >p{
     text-align: center;
@@ -1223,19 +1243,27 @@ align-items: center;
    }
     .bootstrap{
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .bootstrap >i{
-        align-items: center;
-        margin-left:  5.4rem;
+          margin: auto;
+        margin-left: 2rem;
+    }
+         .bootstrap >p{
+        text-align: center;
+        font-size: 19%;
     }
     .javascript{
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .javascript >i{
-        align-items: center;
-        margin-left:  5.4rem;
+       margin: auto;
+        margin-left: 2rem;
+    }
+         .javascript >p{
+        text-align: center;
+        font-size: 19%;
     }
     .myservice{
         width: 100%;
@@ -1244,48 +1272,62 @@ align-items: center;
     }
     .serviceall{
         display: inline;
+        margin-bottom:2rem;
     }
     .servtransp1{
-        align-items: center;
-        width: 90%;
+       margin-top: -3rem;
+        width: 95%;
         height: 87vh;
-        padding-top: 1rem;
     }
     .servc1{
         margin: auto;
-        width: 86%;
-        height: 76vh;
-       margin-left: 2rem;
+        width: 88%;
+        height: 84vh;
+       margin-left: 0.7rem;
        margin-top: 1rem;
        margin-bottom: 2rem;
     }
+        .servc1 >p{
+        font-size: 15px;
+    }
     .servtransp2{
-        align-items: center;
-        width: 90%;
-        height: 87vh;
+        
         margin-top: 2rem;
+        width: 95%;
+        height: 87vh;
     }
     .servc2{
         margin: auto;
-        width: 86%;
-        height: 76vh;
-       margin-left: 2rem;
+        width: 88%;
+        height: 92vh;
+       margin-left: 0.7rem;
        margin-top: 1rem;
        margin-bottom: 2rem;
+       padding-bottom: 3rem;
     }
-    .servtransp3{
-        align-items: center;
-        width: 90%;
-        height: 87vh;
+    .servc2 >.words{
+        font-size: 30px;
+      
+    }
+    .servc2 >p{
+        font-size: 15px;
+        justify-content: space-between;
+    }
+   .servtransp3{
+         
         margin-top: 2rem;
+        width: 95%;
+        height: 87vh;
     }
     .servc3{
         margin: auto;
-        width: 86%;
-        height: 76vh;
-       margin-left: 2rem;
-       margin-top: 1rem;
+        width: 88%;
+        height: 92vh;
+       margin-left: 0.7rem;
+       margin-top: 2rem;
        margin-bottom: 2rem;
+       padding-bottom: 3rem;
+       justify-content: space-between;
 } 
       .contactme{
         width: 100%;
@@ -1296,18 +1338,18 @@ align-items: center;
       }
 .Contact-left >.mail{
    width: 160%;
-   height: 10vh;
-   font-size: 200%;
+  height: 8vh;
+   font-size: 170%;
    font-style: oblique;
    margin-top: -1rem;
    margin-bottom: 2rem;
-   margin-left: rem;
+   margin-left: 1rem;
 }
 
 .Contact-right >form{
- width: 86%;
+ width: 83%;
  margin-top: 6rem;
- margin-left: 3rem;
+ margin-left: 1rem;
 
 }
 .footer{
@@ -1316,27 +1358,29 @@ align-items: center;
 }
       .footerall{
      
-        font-size: 200%;
+        font-size: 170%;
         margin:auto;
-        margin-left: 6rem;
+        margin-left: 2rem;
       }
       .right-footer{
         width: 100%;
       }
       .right-footer >p{
-       width: 190%;
-        margin-left: -12rem;
+        width: 220%;
+      margin: auto;
+        margin-left: -8rem;
         margin-top: 3rem;
-        font-size: 140%;
+        font-size: 110%;
         font-weight: normal;
       }
-      .stickyicon >a >i{
-        width: 78%; 
+     .stickyicon >a >i{
+        width: 70%; 
         margin-top: 5rem;
         margin-right: 1rem;
         position: sticky;
       }
       .stickyicon >i{
-        font-size: 100%;
+        font-size: 50%;
+      
       }
 }
